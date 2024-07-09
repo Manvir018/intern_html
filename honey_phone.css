@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+}
+
+nav ul {
+  display: none;
+}
+
+.icons {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+}
+.text-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.text h1{
+  font-size: 1.5rem;
+}
+
+.product .first-item img{
+  height: 100px;
+  width: 100px;
+}
+
+.star {
+  font-size: 0.7rem;
+}
+
+.products .up{
+  gap: 20px;
+ }
+
+ .products .down{
+  gap: 20px;
+ }
+
+.section-two .products .second-item {
+  font-size: 0.6rem;
+}
+
+.second-item img {
+  height: 120px;
+  width: 120px;
+}
+
+.third-item .img {
+  height: 300px;
+  width: 250px;
+}
+
+.img img{
+  height: 100%;
+  width: 100%
+}
+
+.third-items .img1{
+  height: 150px;
+  width: 200px;
+}
+
+.third-items .img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.third-items .img2{
+  height: 150px;
+  width: 200px;
+}
+
+.third-items .img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+/* section fourth */
+
+.cards{ 
+  height: 220px;
+  width: 100%;
+  gap: 15px;
+}
+
+.card-1{
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+  font-size: 0.6rem;
+}
+
+/* section-fifth  */
+
+.parent-box{
+  height: 250px;
+  width: 100%;
+  gap: 10px;
+}
+
+
+.box-1{
+  height: 200px;
+  width: 200px;
+  font-size: 0.5rem;
+}
+
+.box-1img{
+  width: 150px;
+  height: 120px;
+} 
+
+.box-text{
+margin-top:10px ;
+font-size: 0.3rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h2{
+  font-size: 0.6rem
+}
+
+/* footer */
+
+.footer h4 {
+  font-size: 0.7rem;
+}
+
+.footer a {
+  font-size: 0.6rem;
+}
+
+.subscribe input {
+  width: 130px;
+  height: 30px;
+}
+
+.footer p{
+  font-size: 0.8rem;
+}
+
+@media (max-width: 550px) {
+
+.product{
+  width: 100%;
+}
+
+  .product.first-item{
+    font-size: 1rem;
+  
+  }
+
+  .product .first-item img{
+    height: 70px;
+    width: 70px;
+  }
+
+  .text{
+    width:100%
+  }
+
+  .star {
+    font-size: 0.7rem; 
+  }
+  
+  .products .up{
+    gap: 10px;
+   }
+  
+   .products .down{
+    gap: 10px;
+   }
+
+   .product{
+    width: 100%;
+   }
+  
+ .product .second-item {
+    font-size: 0.4rem;
+  }
+  
+  .second-item img {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .third-item .img {
+    height: 160px;
+    width: 180px;
+  }
+  
+  .img img{
+    height: 100%;
+    width: 100%
+  }
+  
+  .third-items .img1{
+    height: 80px;
+    width: 130px;
+  }
+  
+  .third-items .img1 img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .third-items .img2{
+    height: 80px;
+    width: 130px;
+  }
+  
+  .third-items .img2 img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* section fourth */
+  
+  .cards{ 
+    height: 200px;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .card-1{
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    font-size: 0.4rem;
+  }
+  
+  .user img{
+    height: 20px;
+    width: 20px;
+    border-radius: 70px;
+   }  
+
+
+  /* section-fifth  */
+  
+  .parent-box{
+    height: 250px;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  
+  .box-1{
+    height: 200px;
+    width: 170px;
+    font-size: 0.5rem;
+  }
+  
+  .box-1img{
+    width: 100px;
+    height: 100px;
+  } 
+  
+  .box-text{
+  margin-top:10px ;
+  font-size: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  h2{
+    font-size: 0.6rem
+  }
+  
+  /* footer */
+  
+  .footer h4 {
+    font-size: 0.5rem;
+  }
+  
+  .footer a {
+    font-size: 0.4rem;
+  }
+  
+  .subscribe input {
+    width: 80px;
+    height: 25px;
+    font-size: 0.7rem;
+  }
+  
+  .subscribe button {
+    padding: 0 10px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+
+  .footer p{
+    font-size: 0.5rem;
+  }
+
+}
